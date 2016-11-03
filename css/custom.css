@@ -1,5 +1,6 @@
 body{
   padding-top: 60px;
+  font-size: 2em;
 }
 .logo {
   height: 30px;
@@ -9,4 +10,44 @@ body{
 }
 .full-width {
   width: 100%;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  margin-bottom: 50px;
+}
+h1::after {
+  content: ' ';
+  width: 50px;
+  height: 2px;
+  background-color: #ee1c25;
+  display: block;
+}
+.tab-content {
+  margin-top: 10px;
+}
+footer {
+  background-color: #2e313d;
+  color: #fff;
+}
+.quick-link {
+  background-color: #ee1c25;
+  padding: 10px;
+}
+.quick-link a {
+  color: #fff;
+}
+.quick-link a:hover {
+  color: #c1c1c1;
+}
+.social-media {
+  padding: 10px;
+}
+.copyright {
+  font-size: .7em;
+}
+.readmore {
+  font-size: .7em;
+  color: #ee1c25;
 }
