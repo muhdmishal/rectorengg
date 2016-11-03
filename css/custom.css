@@ -1,0 +1,12 @@
+body{
+  padding-top: 60px;
+}
+.logo {
+  height: 30px;
+}
+.navbar-brand {
+  height: auto;
+}
+.full-width {
+  width: 100%;
+}
