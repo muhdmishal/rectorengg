@@ -34,6 +34,7 @@ footer {
 .quick-link {
   background-color: #ee1c25;
   padding: 10px;
+  font-size: .8em;
 }
 .quick-link a {
   color: #fff;
@@ -45,9 +46,25 @@ footer {
   padding: 10px;
 }
 .copyright {
-  font-size: .7em;
+  font-size: .6em;
 }
 .readmore {
   font-size: .7em;
   color: #ee1c25;
+}
+.carousel-caption.right {
+  background-color: rgba(0, 131, 201, 0.6);
+  left: auto;
+  width: 30%;
+  right: 10%;
+  top: 40%;
+  bottom: auto;
+}
+.carousel-caption.left {
+  background-color: rgba(0, 131, 201, 0.6);
+  right: auto;
+  width: 30%;
+  left: 10%;
+  top: 40%;
+  bottom: auto;
 }
